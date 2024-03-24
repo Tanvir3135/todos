@@ -1,0 +1,10 @@
+### Get tasks
+Get http://localhost:3001
+
+### Add new task
+Post http://localhost:3001/new HTTP/1.1
+Content-Type: application/json
+
+{
+    "description": "Test from REST client"
+}
